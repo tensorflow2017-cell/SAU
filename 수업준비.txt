@@ -1,0 +1,33 @@
+
+기본 수업 준비
+============================================================
+시작 > Anaconda (miniconda) > Anaconda Prompt 실행
+
+# 부분은 실행하지 말 것
+
+conda env list 			# 환경에는 어떤 것들이 있는가?
+conda activate mypy 		# mypy라는 환경을 활성화하라
+conda install ipykernel 		# ipykernel을 설치하라
+conda install duckdb			# duckdb를 설치하라
+python -m pip install pandasql		# pandasql를 설치하라
+
+시작 > Visual Studio Code
+1. 메뉴 View -> Command Palette -> Create: New Jupyter Notebook
+2. select Another Kernel 클릭
+3. Python Environments 클릭
+4. mypy 클릭
+
+
+강의노트 다운로드
+============================================================
+1. https://git-scm.com/downloads/win에서 Git for Windows/x64 Setup. 클릭해서 다운로드
+2. 설치
+git 	clone 	https://github.com/tensorflow2017-cell/SAU.git
+
+
+
+
+
+
+
+
